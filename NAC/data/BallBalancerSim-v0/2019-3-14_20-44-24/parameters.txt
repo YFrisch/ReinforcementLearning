@@ -1,0 +1,11 @@
+Environment name: BallBalancerSim-v0
+Is Env discrete/continuous: continuous
+Do we use continuous actions (or discretize): [5, 5]
+Learning Epochs/num of Updates: 1000
+Batch size: 7000
+Discount factor for monte carlo return: 1
+Network generation time: 7045 seconds
+Network training time: 8 seconds
+Learning rate actor: 0.001
+Learning rate for Adam optimizer in critic: 0.1
+Critic hidden layer size: 10

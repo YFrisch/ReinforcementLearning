@@ -1,0 +1,2 @@
+model_checkpoint_path: "nac_model"
+all_model_checkpoint_paths: "nac_model"

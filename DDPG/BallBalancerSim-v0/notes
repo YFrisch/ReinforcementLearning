@@ -1,0 +1,8 @@
+- L2 weight decay should be <=0.01 (0.1 does not learn)
+	- not sure if it should even be set to 0
+- Discounting should be high (0.99)
+- Higher batch size (1024) seems to be more stable and gives more reliable results [?]
+	- Not always good results with small mini-batches (64)
+- The algo does not always converge to a good result in < 500 episodes. If set to 1000 episodes, 	it might oscillate around the good result
+	- Using 2 layers in the nns seems to reduce these oscillations and the variance in training
+	- Using same structure as in orig. paper: 400 and 300 hidden neurons for both nns.

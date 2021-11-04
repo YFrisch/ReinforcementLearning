@@ -1,0 +1,10 @@
+- Parameters from BallBalancerSim-v0 do not work
+- higher batch-size (1024) seems to be good
+	- not sure about that
+- low amount of random actions (e.g. epsilon 0.02) seems to help
+	- not sure about that
+- gets often stuck in local optimal
+- "harder" updates seem to be crucial
+	- tau = 1e-2 already works way better than tau = 1e-3
+	- (first nice results after increasing tau)
+

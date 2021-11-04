@@ -1,0 +1,11 @@
+Environment name: CartPole-v0
+Is Env discrete/continuous: discrete
+Do we use continuous actions (or discretize): [0]
+Learning Epochs/num of Updates: 300
+Batch size: 500
+Discount factor for monte carlo return: 0.97
+Network generation time: 53 seconds
+Network training time: 111 seconds
+Learning rate actor: 0.001
+Learning rate for Adam optimizer in critic: 0.1
+Critic hidden layer size: 10

@@ -1,0 +1,18 @@
+Episodes:	5000
+MaxSteps:	500
+ReplayBufferSize:	1e6
+MiniBatchSize:	64
+DiscountFactorGamma:	0.99
+Tau:		1e-4
+LR Actor:	1e-4
+Hidden Units Actor1:	100
+Hidden Units Actor2:	300
+LC Critic:	1e-3
+Hidden Units Critic1:	100
+Hidden Units Critic2:	300
+L2 weight decay:	0
+OU Noise Sigma:	0.2
+OU Noise Theta:	0.25
+
+
+Pretty nice results, but used two hidden layers; took quite a while (several hours)
